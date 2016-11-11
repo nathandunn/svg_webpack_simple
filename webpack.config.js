@@ -8,5 +8,8 @@ module.exports = {
         loaders: [
             { test: /\.css$/, loader: "style!css" }
         ]
+    },
+    externals: {
+        "libs/raphael":"Raphael"
     }
 };
